@@ -1,0 +1,77 @@
+body {
+  background: url("./assets/paper.jpg");
+  background-size: cover;
+  font-family: "BootzyTM";
+  padding: 0 0 50px;
+}
+
+h1 {
+  font-family: "BootzyTM";
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+nav li {
+  margin: 0 20px;
+  list-style-type: none;
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+
+nav li:hover {
+  color: red;
+}
+
+.items-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: white;
+  padding: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); */
+  transform: rotate(-1deg);
+}
+
+.item:nth-of-type(2n) {
+  transform: rotate(1deg);
+}
+
+.item h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.item img {
+  max-width: 500px;
+  display: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.item img.show {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .items-wrapper {
+    flex-direction: column;
+  }
+}
