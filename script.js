@@ -53,3 +53,59 @@ document
     document.getElementById("tierra-whack-pic").classList.add("show");
     event.target.classList.remove("show");
   });
+
+document
+  .getElementById("fred-again-pic")
+  .addEventListener("mouseenter", (event) => {
+    document.getElementById("fred-again-gif").classList.add("show");
+    event.target.classList.remove("show");
+  });
+
+document
+  .getElementById("fred-again-gif")
+  .addEventListener("mouseleave", (event) => {
+    document.getElementById("fred-again-pic").classList.add("show");
+    event.target.classList.remove("show");
+  });
+
+document
+  .getElementById("fred-again-pic")
+  .addEventListener("touchstart", (event) => {
+    document.getElementById("fred-again-gif").classList.add("show");
+    event.target.classList.remove("show");
+  });
+
+document
+  .getElementById("fred-again-gif")
+  .addEventListener("touchend", (event) => {
+    document.getElementById("fred-again-pic").classList.add("show");
+    event.target.classList.remove("show");
+  });
+
+document
+  .getElementById("pookiemon-pic")
+  .addEventListener("mouseenter", (event) => {
+    document.getElementById("pookiemon-gif").classList.add("show");
+    event.target.classList.remove("show");
+  });
+
+document
+  .getElementById("pookiemon-gif")
+  .addEventListener("mouseleave", (event) => {
+    document.getElementById("pookiemon-pic").classList.add("show");
+    event.target.classList.remove("show");
+  });
+
+document
+  .getElementById("pookiemon-pic")
+  .addEventListener("touchstart", (event) => {
+    document.getElementById("pookiemon-gif").classList.add("show");
+    event.target.classList.remove("show");
+  });
+
+document
+  .getElementById("pookiemon-gif")
+  .addEventListener("touchend", (event) => {
+    document.getElementById("pookiemon-pic").classList.add("show");
+    event.target.classList.remove("show");
+  });
